@@ -83,6 +83,12 @@
   height: 100%;
   
 }
+.menus .profile-name{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 24px;
+}
 .menus.active{
   transform: translateY(0);
 }
