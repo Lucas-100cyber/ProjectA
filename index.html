@@ -27,7 +27,9 @@
   </div>
   </div>
   <div class="image">
-    <img src="radio.jpg">
+    <img src="radio.jpg" class="slide active">
+    <!---img src="theme.jpg" class="slide">
+    <img src="profile.jpg" class="slide"-->
   </div>
   <div class="ask" id="ask">
     <div class="q" id="q">Do you know SCOM?</div>
@@ -71,12 +73,26 @@
       <div class="right" >© all right reserved. SCOM holding</div>
     </div>
   </footer>
-  <div class="menus" >
-    <i class="fab fa-cancel"></i>
-    <div class="profile">L</div>
+  <div class="overlay" id="overlay"></div>
+  <div class="menus" id="menus" >
+    <i class="fa fa-times" id="cancel"></i>
+    <div class="profile" id="profile">
+      <img src='profile.jpg' >
+    </div>
+    <div class="profile-name" id="profile-name">Annie Johnmy</div>
     <div class="menu-item">
       <div class="menu-items" id="Prayers">Prayers</div>
+      <div class="menu-items" id="Morning Devotions">Morning Devotions</div>
+      <div class="menu-items" id="Announcements">Announcements</div>
+      <div class="menu-items" id="Live">Live</div>
+      <div class="menu-items" id="photos">Photos</div>
+      <div class="menu-items" id="saved">Saved Photos</div>
+      <div class="menu-items" id="edit">Edit Profile</div>
+      <div class="menu-items" id="my-profile">My Profile</div>
     </div>
+      <hr>
+      <div class="logout" id="logout">Log Out</div>
+    
   </div>
   <script src="scripts/script.js"></script>
 </body>
